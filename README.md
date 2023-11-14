@@ -1,12 +1,12 @@
 # www.moduletool.com
 
+### GenAI
 
+The GenAI surprised us last year!
 
-### Git is about versioning code
-
-The [Git](https://en.wikipedia.org/wiki/Git) versioning system works at the code level and extends the capabilities of the modular network of code.
-The distributed **version control system** that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development. 
-I'ts goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different computers).
++ How quickly we can accept these possibilities, so in fact they bring true value, not just interesting PoC and experiments?
++ What can help us today?
++ What tool are available?
 
 ### Service-based perspective 
 
@@ -15,6 +15,7 @@ We need more tools, you can call them:
 + Network of Source-code management system 
 
 Such component management tools are more important than the knowledge of hypermodularity.
+Here is a tool which bring us the power of serving open and hypermodular architecture
 
 
 ### Service-based component management tools
@@ -54,6 +55,16 @@ Creating a service-based component management tool that integrates with versione
 11. **Automation and CI/CD Integration**: To fit into modern DevOps practices, the tool should integrate with existing continuous integration and continuous deployment pipelines, automating the assessment of reusability as part of the CI/CD process.
 
 By focusing on these key aspects, a service-based component management tool can provide a comprehensive overview and management of a codebase’s reusability at various abstraction levels, from individual classes to entire service components operating within a hardware and network infrastructure context.
+
+
+
+
+### Git is about versioning code
+
+The [Git](https://en.wikipedia.org/wiki/Git) versioning system works at the code level and extends the capabilities of the modular network of code.
+The distributed **version control system** that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development. 
+I'ts goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different computers).
+
 
 
 
