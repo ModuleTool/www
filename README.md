@@ -1,8 +1,8 @@
 # www.moduletool.com
 
-+ [docs.ModuleTool.com | docs](https://docs.moduletool.com/)
-  + [Hi level solution | docs](https://docs.moduletool.com/1/)
-  + [Low level solution | docs](https://docs.moduletool.com/2/)
++ [docs.ModuleTool.com](https://docs.moduletool.com/)
+  + [Hi level solution](https://docs.moduletool.com/1/)
+  + [Low level solution](https://docs.moduletool.com/2/)
 
 ### GenAI
 
