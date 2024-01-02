@@ -226,6 +226,8 @@ I'ts goals include speed, data integrity, and support for distributed, non-linea
 ## Keywords
 
 + prototyping framework for component-based software development
++ Autonomous system framework
++ Autonomous operations framework
 
 
 
