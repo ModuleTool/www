@@ -80,6 +80,14 @@ sequenceDiagram
     Decorator-->>Client: Return result
 ```
 
+Layers of software:
++ environment: docker
++ component: function
++ data: input, output, logs
++ automation: SDLC
+
+during the service is running, components decorator is saving the logs to DB with variables
+
 In this diagram:
 
 - **Client**: This represents the entity (e.g., user, system, or another service) that calls the function.
