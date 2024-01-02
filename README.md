@@ -1,5 +1,8 @@
 # www.moduletool.com
 
+![obraz](https://github.com/moduletool/www/assets/5669657/f70821c5-34e5-4dd3-b94d-47888c04b821)
+
+
 + [docs.ModuleTool.com](https://docs.moduletool.com/)
   + [Hi level solution](https://docs.moduletool.com/1/)
   + [Low level solution](https://docs.moduletool.com/2/)
@@ -20,6 +23,36 @@ We need more tools, you can call them:
 
 Such component management tools are more important than the knowledge of hypermodularity.
 Here is a tool which bring us the power of serving open and hypermodular architecture
+
+
+## Autonomous Services Framework
+
+ModuleTool is supporting creating and managing autonomous or automated services in a system architecture with a focus on modularity, scalability, and self-management. 
+
+The concept of autonomous services is associated with microservices architectures where different services operate independently and possibly with autonomous decision-making abilities. In such architectures, services communicate with each other through well-defined interfaces, and each service is responsible for a specific piece of functionality within the larger application.
+
+## Features of framework
+
+1. **Service Discovery**: Mechanisms for services to dynamically discover and interact with each other in a constantly changing environment.
+2. **Load Balancing**: Distributing requests among multiple service instances to optimize resource usage and response times.
+3. **Fault Tolerance**: Providing robustness against failures, with patterns like retries, circuit breakers, and fallbacks.
+4. **Scaling**: The ability to automatically adjust the number of service instances based on the demand.
+5. **Monitoring and Logging**: Tools to track the performance and health of services, and to diagnose issues when they arise.
+6. **Continuous Delivery/Deployment**: Support for deploying updates to services with minimal downtime, often through automated pipelines.
+
+## Another tools
+
+Examples of tools and platforms that offer similar functionality to what you might expect in an Autonomous Services Framework include:
+
+- **Kubernetes**: An open-source platform designed to automate deploying, scaling, and operating application containers.
+- **Docker Swarm**: A container orchestrator provided by Docker, Inc. that helps manage a cluster of Docker Engines.
+- **Apache Mesos**: A cluster manager that provides efficient resource isolation and sharing across distributed applications or frameworks.
+- **Netflix OSS**: A set of frameworks and tools for building microservices, which includes Eureka for service discovery, Hystrix for fault tolerance, and Ribbon for load balancing, among others.
+- **Istio**: An open platform to connect, manage, and secure microservices, which provides an easy way to create a network of deployed services with load balancing, service-to-service authentication, and monitoring.
+
+
+
+
 
 
 ### Service-based component management tools
