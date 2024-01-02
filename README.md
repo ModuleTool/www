@@ -1,6 +1,6 @@
 # www.moduletool.com
 
-![obraz](https://github.com/moduletool/www/assets/5669657/f70821c5-34e5-4dd3-b94d-47888c04b821)
+![obraz](https://github.com/moduletool/www/assets/5669657/982ee810-9197-4591-bd92-e18aa9c3b667)
 
 
 + [docs.ModuleTool.com](https://docs.moduletool.com/)
