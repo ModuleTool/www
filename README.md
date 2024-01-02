@@ -86,6 +86,47 @@ Layers of software:
 + data: input, output, logs
 + automation: SDLC
 
+
+
+```mermaid
+classDiagram
+    class Environment {
+        +Docker
+    }
+    class Component {
+        +Function()
+    }
+    class Data {
+        +Input
+        +Output
+        +Logs
+    }
+    class Automation {
+        +SDLC Processes
+    }
+
+    Component --|> Environment: Runs within
+    Data --|> Component: Used by
+    Automation --|> Data: Manages
+```
+
+![obraz](https://github.com/moduletool/www/assets/5669657/110f9beb-b5eb-480c-aa67-c6ee43957c97)
+
+
+And here's a rough interpretation of what each class represents:
+
+- **Environment**: The Docker container environment where components are encapsulated, providing a consistent and isolated runtime across different systems.
+- **Component**: This could represent a specific microservice or function within your Autonomous Services Framework, which performs a particular task or set of tasks.
+- **Data**: This includes the inputs provided to components, the outputs they generate, and the logs tracking their behavior and performance.
+- **Automation**: This represents automation workflows or tools implemented within the SDLC to streamline development, testing, deployment, and monitoring.
+
+In the diagram, the connector lines represent the following relationships:
+
+- Component "Runs within" Environment: The function/component is executed within the Docker environment.
+- Data "Used by" Component: The function/component consumes input data, produces output data, and generates logs.
+- Automation "Manages" Data: SDLC processes manage how data is handled, potentially through automated testing, deployme
+
+  
 during the service is running, components decorator is saving the logs to DB with variables
 
 In this diagram:
