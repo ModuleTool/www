@@ -147,6 +147,32 @@ The sequence of actions is as follows:
 7. Finally, the decorator returns the result of the function back to the client.
 
 
+
+## Prototyping framework 
+
+a prototyping framework for component-based software development plays a crucial role in enabling fast iteration, simulation, and testing. Here are some examples of prototyping frameworks and supporting tools that could be used for this purpose:
+
+1. **Robot Operating System (ROS)**: ROS is an open-source robotic middleware that offers a collection of tools, libraries, and conventions for simplifying the task of creating complex and robust robot behavior across a wide variety of platforms. ROS components are organized into packages, and each package can contain nodes, libraries, and drivers, making it a powerful prototyping tool for autonomous systems.
+
+2. **Gazebo**: Often used in conjunction with ROS, Gazebo is a robotics simulator that provides an excellent virtual environment to prototype, design, and test autonomous robots in various conditions without the inherent risk and cost associated with physical prototyping.
+
+3. **Microsoft Robotic Developer Studio (MRDS)**: MRDS offers an integrated, end-to-end development environment for building and testing robot applications. It includes a set of tools that support rapid prototyping through the use of a realistic 3D simulation environment.
+
+4. **Webots**: Webots is another open-source robot simulator that provides a complete development environment to model, program, and simulate robots. With a wide variety of virtual sensors and actuators, it's suitable for prototyping component-based autonomous systems.
+
+5. **Unity + ML-Agents**: Unity, primarily known for game development, offers a rich 3D simulation environment that can be leveraged to prototype autonomous systems. ML-Agents, a Unity plugin, enables machine learning agents to be trained in realistic scenarios, making it suitable for AI-driven autonomous system components.
+
+6. **CoppeliaSim (formerly V-REP)**: CoppeliaSim is a robot simulation software with an integrated development environment that supports various types of sensors and actuators, capable of simulating complex algorithms and robotic behavior for prototyping purposes.
+
+7. **MATLAB and Simulink**: Widely used for control systems design and simulation, these tools offer a block-diagram environment for multi-domain simulation and Model-Based Design. They are powerful for prototyping and testing the control algorithms of autonomous systems.
+
+8. **PX4 Autopilot Software**: PX4 provides an open-source flight control software for drones and other unmanned vehicles. It has a modular design with numerous prebuilt components, making it suitable for the rapid prototyping of autonomous aerial systems.
+
+9. **Apollo: An open autonomous driving platform by Baidu**, Apollo provides a comprehensive, flexible, and secure platform that includes a full set of innovative features tailored for autonomous vehicles. The platform is modular and scalable, allowing for rapid iteration and prototyping of autonomous driving components.
+
+10. **AutoWare**: AutoWare is an all-in-one open-source software for autonomous driving. It is based on ROS and designed to implement all the necessary components for urban autonomous driving. It allows for prototyping of various aspects of self-driving systems from perception to control.
+
+
 ### Service-based component management tools
 
 The tool is about network of code (Service-based components), based on git versioned code will help to manage the level of **resuabuility**, which is depended by:
