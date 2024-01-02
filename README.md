@@ -53,6 +53,49 @@ Examples of tools and platforms that offer similar functionality to what you mig
 
 
 
+## diagram
+
+mermaid diagram for the Autonomous Services Framework called module tool is using decorator on each component  to save logs to DB and observe how works the software, how long it take to start component. Each component is a defined by sentence generated function which has input arguments and returned objects, all of them are directly saved in DB as serialized objects or json objects to check the results later on and check if the function is working properly, 
+
+
+![obraz](https://github.com/moduletool/www/assets/5669657/e810a541-19c0-45e4-ac46-267ef6851b39)
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Decorator
+    participant Component
+    participant Database
+
+    Note over Client,Component: Client invokes a component function
+    Client->>Decorator: call(functionArgs)
+    Note over Decorator: Decorator intercepts the call
+    Decorator->>Database: Save initial log with timestamp
+    Decorator->>Component: Invoke real function(functionArgs)
+    Component-->>Decorator: Return result
+    Note over Component: Function execution takes place
+    Decorator->>Database: Serialize and save result (JSON)
+    Decorator->>Database: Save end log with timestamp
+    Note over Decorator: Calculate execution time
+    Decorator-->>Client: Return result
+```
+
+In this diagram:
+
+- **Client**: This represents the entity (e.g., user, system, or another service) that calls the function.
+- **Decorator**: This is a wrapper around the actual component that provides logging and observation functionality. It saves logs to the database with timestamps and serialized function results.
+- **Component**: The main functional unit that performs the action defined by the framework. This would encapsulate the 'sentence generated function' you mentioned.
+- **Database**: This is where logs, serialized objects, and JSON representations of the arguments and results are stored for later analysis.
+
+The sequence of actions is as follows:
+
+1. The client invokes a component function by sending it the necessary arguments.
+2. The decorator intercepts this call and first logs the initial timestamp to the database indicating the start of the execution.
+3. The decorator then invokes the actual function within the component, passing the function arguments.
+4. The component executes its logic and returns the result to the decorator.
+5. The decorator serializes this result (possibly as a JSON object) and saves it to the database along with a log of the end timestamp.
+6. The decorator calculates the total execution time based on the timestamps.
+7. Finally, the decorator returns the result of the function back to the client.
 
 
 ### Service-based component management tools
