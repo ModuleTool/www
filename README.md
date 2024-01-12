@@ -29,6 +29,14 @@ Programowanie powinno być procesem wytwórczym algorytmu ze sprzężeniem zwrot
 Nasze rozwiązanie nie tylko przyśpiesza wytwarzanie oprogramowania, ale zwiększa jakość, modułowosć, reużycie w przyszłych projektach już przetestowanych modułach
 
 
+## Testowanie
+
++ Jak testować backend i frontend w pełni automatycznie? ktoś musi je pisać/nagrywać...
++ Z tym generowaniem przez ML też bywa słabo
+
+Framework ModuleTool to kod hipermodularny, HTML jest strukturą, którą można kontrolowac, bo JS również jest pisany pod te zdarzenia. 
+Istotą jest generowanie frontendu i backendu z jednej dokumentacji, aby była konsystentna, aby oczekiwania były spójne i możliwe do walidacji. 
+Kwestia wybrania odpowiednich zespołów modułów w modularnej sieci kodu, by same z siebie były już zwalidowane. 
 
 
 ### GenAI
