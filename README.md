@@ -13,6 +13,12 @@
 Czy również spotykasz się ze ścianą w rozwoju biznesu w modelu SaaS?
 + "nie będę mógł sam rozwijać projektu, bo potrzebuję co najmniej testera manualnego, żeby stale monitorować zmiany a to wymaga budowania zespołów."
 
+## Dzis
+
+Dyskusja z klientem to narzędzie co prawda niezbyt wyrafinowane, ale w większości wypadków się sprawdza, jednak wyobraźmy sobie sytuację, gdzie klient zamawia oprogramowanie a wszelkie wskazówki są uwzględniane bezpośrednio przez usługę, która jest częścią autonomicznego systemu. Korekcja rozwiązania następuje przez wskazówki klientów i analizę działania przez sam framework, który generuje usługę.
+
+#AutonomousOperationsFramework https://www.workato.com/accelerators/autonomous_operations_framework
+
 
 ## Rozwiązanie
 
@@ -21,6 +27,7 @@ Nie musisz zatrudniać ludzi, kwestia jak podchodzisz do SDLC.
 Programowanie powinno być procesem wytwórczym algorytmu ze sprzężeniem zwrotnym na bazie modułów lub generowane poprzez ML na bazie specyfikacji i dopracowywane poprzez logi/debugging.
 
 Nasze rozwiązanie nie tylko przyśpiesza wytwarzanie oprogramowania, ale zwiększa jakość, modułowosć, reużycie w przyszłych projektach już przetestowanych modułach
+
 
 
 
