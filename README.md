@@ -3,11 +3,26 @@
 ![obraz](https://github.com/moduletool/www/assets/5669657/9bd2a574-e77c-41f3-a97e-1c6f9d4c0f8b)
 
 
-
-
 + [docs.ModuleTool.com](https://docs.moduletool.com/)
   + [Hi level solution](https://docs.moduletool.com/1/)
   + [Low level solution](https://docs.moduletool.com/2/)
+
+
+## Problem
+
+Czy również spotykasz się ze ścianą w rozwoju biznesu w modelu SaaS?
++ "nie będę mógł sam rozwijać projektu, bo potrzebuję co najmniej testera manualnego, żeby stale monitorować zmiany a to wymaga budowania zespołów."
+
+
+## Rozwiązanie
+
+Rozwiązaniem może być AutonomousOperationFramework, czyli w skrócie: decorator + logi jako obiekty w bazie danych z analizą wejść wyjść. 
+Nie musisz zatrudniać ludzi, kwestia jak podchodzisz do SDLC. 
+Programowanie powinno być procesem wytwórczym algorytmu ze sprzężeniem zwrotnym na bazie modułów lub generowane poprzez ML na bazie specyfikacji i dopracowywane poprzez logi/debugging.
+
+Nasze rozwiązanie nie tylko przyśpiesza wytwarzanie oprogramowania, ale zwiększa jakość, modułowosć, reużycie w przyszłych projektach już przetestowanych modułach
+
+
 
 ### GenAI
 
