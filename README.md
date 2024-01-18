@@ -39,6 +39,17 @@ Istotą jest generowanie frontendu i backendu z jednej dokumentacji, aby była k
 Kwestia wybrania odpowiednich zespołów modułów w modularnej sieci kodu, by same z siebie były już zwalidowane. 
 
 
+## Idea 
+
+ten projekt powstał z potrzeby aktualnych czasów, gdzie nie ma czasu ani zasobów na prototypowanie.
+Trzeba też utrzymać wzrost bez dodatkowych kosztów z łatwą integracją.
+DLatego najlepiej zamiast używać rozproszonej infrastruktury mieć skonsolidowane usługi na jednej maszynie która wykonuje wszystkie potrzebne procesy nawet na laptopie.
+
+Dziś każdy z nas może tworzyć swój One Person SaaS.
+Od zera, na bazie tylko integracji z kilkoma usługami porzez klucze API można połączyć framework z repozytorium git i API openAI, by otrzymywać samoaktualizujące się oprogrmoawnaie, które
+doskonali się na bazie własnych błędów.
+
+
 ### GenAI
 
 The GenAI surprised us last year!
