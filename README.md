@@ -41,7 +41,7 @@ Kwestia wybrania odpowiednich zespołów modułów w modularnej sieci kodu, by s
 
 ## Idea 
 
-ten projekt powstał z potrzeby aktualnych czasów, gdzie nie ma czasu ani zasobów na prototypowanie.
+ten projekt powstał z braku czasu ani zasobów na prototypowanie.
 Trzeba też utrzymać wzrost bez dodatkowych kosztów z łatwą integracją.
 DLatego najlepiej zamiast używać rozproszonej infrastruktury mieć skonsolidowane usługi na jednej maszynie która wykonuje wszystkie potrzebne procesy nawet na laptopie.
 
