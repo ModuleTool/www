@@ -8,6 +8,21 @@
   + [Low level solution](https://docs.moduletool.com/2/)
 
 
+## docs
+
++ [Autonolas Developer Documentation](https://docs.autonolas.network/open-autonomy/?h=framework)
+Open Autonomy is a framework for the creation of agent services: off-chain autonomous services which run as a multi-agent-system (MAS) and offer enhanced functionalities on-chain. Agent services expand the range of operations that traditional smart contracts offer, making it possible to execute arbitrarily complex operations (such as machine-learning algorithms). Most importantly, agent services are decentralized, trust-minimized, transparent, and robust.
+![obraz](https://github.com/moduletool/www/assets/5669657/d24b5ee0-4208-4090-8186-36c559cc38e7)
+
+
++ [Introducing AI and AN - TM Forum](https://www.tmforum.org/opendigitalframework/introducing-ai-and-an/)
+  
++ [An Autonomous Service-Oriented Orchestration Framework for Software Defined Mobile Networks - IEEE Conference Publication | IEEE Xplore](https://ieeexplore.ieee.org/document/8685919)
++ [Heterogenous evaluations of autonomous vehicle services: An extended theoretical framework and empirical evidence - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0040162523006376)
++ [Framework for the adaptation of an autonomous academic recommendation system as a service-oriented architecture - Education and Information Technologies](https://link.springer.com/article/10.1007/s10639-022-11172-8)
++ [Next-Gen Autonomous System Design Made Easier with DDS and ROS](https://www.infoq.com/articles/ros2-dds-communication/)
++ 
+
 ## Problem
 
 Czy również spotykasz się ze ścianą w rozwoju biznesu w modelu SaaS?
