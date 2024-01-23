@@ -21,7 +21,25 @@ Open Autonomy is a framework for the creation of agent services: off-chain auton
 + [Heterogenous evaluations of autonomous vehicle services: An extended theoretical framework and empirical evidence - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0040162523006376)
 + [Framework for the adaptation of an autonomous academic recommendation system as a service-oriented architecture - Education and Information Technologies](https://link.springer.com/article/10.1007/s10639-022-11172-8)
 + [Next-Gen Autonomous System Design Made Easier with DDS and ROS](https://www.infoq.com/articles/ros2-dds-communication/)
-+ 
+
++ [Topology Architecture Overview — Topology Framework 1.9.15 documentation](https://topology.readthedocs.io/architecture.html)
+  
++ [Modular Automation Framework (MAF) - by Saurabh Gupta](https://medium.com/@saurabhguptacse/modular-automation-framework-maf-6d99b0a80b26)
+
+A modular automation framework is a automation development approach that divides the automation process into smaller, independent modules. These modules can then be reused and combined in different ways to create automated tests for a variety of applications and systems.
++ Increased reusability: Time and effort can be saved by reusing modular tests across many systems and applications. Like a automation can be the combination of API, Web, Mobile, Desktop, etc.
++ Improved maintainability: Modular tests are easier to maintain and update than traditional tests, as changes to one module do not typically affect other modules.
++ Enhanced scalability: Modular automation frameworks can be easily scaled up or down to meet the needs of different projects.
++ Improved readability and collaboration: Modular tests are typically more readable and easier to understand than traditional tests, which makes them easier to collaborate on.
+
+
+Benefits of using a MAF
+
++ Reduced Maintenance Costs: Compared to traditional testing, modular frameworks are simpler to update and manage because modifications to one module usually have no effect on other modules. Over time, this may result in considerable savings on maintenance expenses.
++ Increased Test Coverage: It is simpler to develop thorough test suites that cover every facet of an application when using modular frameworks. This is due to the ease with which complicated test scenarios may be created by combining and reusing modular tests.
++ Improved Test Quality: OOP concepts and test data isolation are two recommended practises that are promoted by modular framework integration. This may result in test suites of greater quality that are easier to debug and more dependable.
++ Improved Team Productivity: Teams can work together more easily on test automation projects when using modular frameworks. This is due to the fact that compared to standard examinations, modular tests are usually easier to read and comprehend.
+
 
 ## Problem
 
