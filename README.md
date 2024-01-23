@@ -10,6 +10,16 @@
 
 ## docs
 
++ [dialoget/python-test: python-test.dialoget.com - test repository](https://github.com/dialoget/python-test)
++ [python-test/src/create_repo_on_org_github.py at main · dialoget/python-test](https://github.com/dialoget/python-test/blob/main/src/create_repo_on_org_github.py)
+
+    
++ [Modular programming - Wikipedia](https://en.wikipedia.org/wiki/Modular_programming)
++ [Creating Modular Code with No Dependencies | Toptal®](https://www.toptal.com/software/creating-modular-code-with-no-dependencies)
++ [Log-Driven Development (LDD) - ldd.coders.info](https://ldd.coders.info/)
+
+  
+  
 + [Autonolas Developer Documentation](https://docs.autonolas.network/open-autonomy/?h=framework)
 Open Autonomy is a framework for the creation of agent services: off-chain autonomous services which run as a multi-agent-system (MAS) and offer enhanced functionalities on-chain. Agent services expand the range of operations that traditional smart contracts offer, making it possible to execute arbitrarily complex operations (such as machine-learning algorithms). Most importantly, agent services are decentralized, trust-minimized, transparent, and robust.
 ![obraz](https://github.com/moduletool/www/assets/5669657/d24b5ee0-4208-4090-8186-36c559cc38e7)
