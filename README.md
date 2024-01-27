@@ -51,6 +51,38 @@ Benefits of using a MAF
 + Improved Team Productivity: Teams can work together more easily on test automation projects when using modular frameworks. This is due to the fact that compared to standard examinations, modular tests are usually easier to read and comprehend.
 
 
+Twin
+```csv
+Requirements, Solutions, Tools
+Privately share all the resources online to allow the collaborators to work from everywhere at any time., Web platform, GitLab
+Put the source code under revision control to allow safe individual experimentation by branching the code without breaking the working solution., Revision control, Git
+Share a common environment to make sure that all collaborators use the same libraries and dependencies, making abstraction of the local system hardware and environment, either virtual or not., System containerization, Docker
+Store online all the large binaries, such as datasets and trained models, that are required at runtime and automatically download them when necessary., Cloud storage, OwnCloud
+Use an automated setup so that new collaborators can integrate the team quickly without prior knowledge., Shell scripting, Bash
+Implement new features with modules connected through a common interface, hence making abstraction of the communication between them., Robotics middleware, ROS [26]
+Develop complex robot behaviors visually to prioritize code reusability and failure recovery during service tasks., State machine, FlexBE [22]
+Automatically compile the solution every time the source code is modified to monitor and detect compilation and/or environment issues as early as possible., Continuous integration, GitLab Runner
+Provide general unit tests and/or simulations to detect runtime logic errors as much as possible., Unattended simulation, Gazebo [27]
+Periodically deploy the successfully tested code to serve as a new base between all collaborators., Container registry, GitLab Registry
+Allow large-scale simulation deployment on multiple machines, either virtual or not, by making abstraction of the underlying hardware and cloud infrastructure., Container orchestration, Kubernetes
+Produce and maintain all the documentation by collaborative editing in a centralized location., Wiki engine, GitLab Wiki
+```
+
+Overview of the goals of the Software Development Environment (SDE).
+![image](https://github.com/moduletool/www/assets/5669657/34f6394f-0738-488b-90e0-cdcc90525c5d)
+
++ [Software development environment for collaborative research workflow in robotic system integration](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2068353)
+
+
+Overview of the containerized SDE workflow.
+
+![image](https://github.com/moduletool/www/assets/5669657/cdb5a7f6-283f-4942-8cd5-cc7c4760bca3)
+
+![image](https://github.com/moduletool/www/assets/5669657/9123702f-abe8-4f97-bf44-779e9dbed581)
+
+
+
+
 ## Problem
 
 Czy również spotykasz się ze ścianą w rozwoju biznesu w modelu SaaS?
