@@ -8,6 +8,32 @@
   + [Low level solution](https://docs.moduletool.com/2/)
 
 
+## Introduction
+
+I wanted to share the final stage of the AGI structure I've been researching on for a long time.
+
+When we think about the Artificial Intelligence habitat, autonomous structures that can take actions on their own are gaining more importance, moving away from standard input-output approaches.
+This is expected to be a turning point in the future.
+
+Just like humans, as learned capabilities increase, the scope of influence expands. 
+Within this scope, we refer to the learned areas as "tools." In other words, as the capabilities and number of embedded tools increase, the capacity expands, and the standard AI approach evolves towards AGI.
+
+There's another interesting point:
+- Within a created habitat, a compact and holistic structure can be achieved. With various tools and coding approaches nourishing the AI structure, everything that seems impossible becomes "achievable" within this integrated structure. This is what the algorithmic structure I've been working on aims for.
+
+Although it's still in the development stage, I wanted to share the set of "tools" in its final workable form:
+- Youtube(Video) Extraction and Transcript Review
+- Wikipedia Information Extraction
+- Internet Search
+- Article Search & Extraction
+- Python Code Execution
+- Shell Code Execution
+- Finance Search
+- Vision Preview/OpenAI & Response
+- Gemini/Pro Assistant
+- Gemini/Vision Assistant
+- RAG/Document Information
+  
 ## docs
 
 + [dialoget/python-test: python-test.dialoget.com - test repository](https://github.com/dialoget/python-test)
